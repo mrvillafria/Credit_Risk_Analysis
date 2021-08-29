@@ -19,40 +19,40 @@ The six machine learning algorithms we used for this analysis were:
 For each machine learning model tested, we generated an accuracy score, confusion matrix, and and imbalanced classification report. 
 
 #### RandomOverSampler
-![RandomOverSampler](/Resources/RandomOverSampler.PNG)
 - Accuracy Score: 0.65
 - Precision Score: 0.01
 - Recall Score: 0.69
+![RandomOverSampler](/Resources/RandomOverSampler.PNG)
 
 #### SMOTE Oversampling
-![SMOTE](/Resources/SMOTE.PNG)
 - Accuracy Score: 0.66
 - Precision Score: 0.01
 - Recall Score: 0.63
+![SMOTE](/Resources/SMOTE.PNG)
 
 #### ClusterCentroids Undersampling
-![ClusterCentroids](/Resources/ClusterCentroids.PNG)
 - Accuracy Score: 0.54
 - Precision Score: 0.01
 - Recall Score: 0.69
+![ClusterCentroids](/Resources/ClusterCentroids.PNG)
 
 #### SMOTEENN Combination Sampling
-![SMOTEENN](/Resources/SMOTEENN.PNG)
 - Accuracy Score: 0.64
 - Precision Score: 0.01
 - Recall Score: 0.72
+![SMOTEENN](/Resources/SMOTEENN.PNG)
 
 #### BalancedRandomForestClassifier
-![BalancedRandomForestClassifier](/Resources/BalancedRandomForestClassifier.PNG)
-![SMOTEENN](/Resources/SMOTEENN.PNG)
 - Accuracy Score: 0.79
 - Precision Score: 0.03
 - Recall Score: 0.70
+![BalancedRandomForestClassifier](/Resources/BalancedRandomForestClassifier.PNG)
 
 #### EasyEnsembleClassifier
-![EasyEnsembleClassifier](/Resources/EasyEnsembleClassifier.PNG)
 - Accuracy Score: 0.93
 - Precision Score: 0.09
 - Recall Score: 0.92
+![EasyEnsembleClassifier](/Resources/EasyEnsembleClassifier.PNG)
+
 
 ## Summary
