@@ -22,37 +22,42 @@ For each machine learning model tested, we generated an accuracy score, confusio
 - Accuracy Score: 0.65
 - Precision Score: 0.01
 - Recall Score: 0.69
+
 ![RandomOverSampler](/Resources/RandomOverSampler.PNG)
 
 #### SMOTE Oversampling
 - Accuracy Score: 0.66
 - Precision Score: 0.01
 - Recall Score: 0.63
+
 ![SMOTE](/Resources/SMOTE.PNG)
 
 #### ClusterCentroids Undersampling
 - Accuracy Score: 0.54
 - Precision Score: 0.01
 - Recall Score: 0.69
+
 ![ClusterCentroids](/Resources/ClusterCentroids.PNG)
 
 #### SMOTEENN Combination Sampling
 - Accuracy Score: 0.64
 - Precision Score: 0.01
 - Recall Score: 0.72
+
 ![SMOTEENN](/Resources/SMOTEENN.PNG)
 
 #### BalancedRandomForestClassifier
 - Accuracy Score: 0.79
 - Precision Score: 0.03
 - Recall Score: 0.70
+
 ![BalancedRandomForestClassifier](/Resources/BalancedRandomForestClassifier.PNG)
 
 #### EasyEnsembleClassifier
 - Accuracy Score: 0.93
 - Precision Score: 0.09
 - Recall Score: 0.92
-![EasyEnsembleClassifier](/Resources/EasyEnsembleClassifier.PNG)
 
+![EasyEnsembleClassifier](/Resources/EasyEnsembleClassifier.PNG)
 
 ## Summary
