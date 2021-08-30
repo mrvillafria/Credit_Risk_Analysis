@@ -16,7 +16,7 @@ The six machine learning algorithms we used for this analysis were:
 5. BalancedRandomForestClassifier
 6. EasyEnsembleClassifier
 
-For each machine learning model tested, we generated an accuracy score, confusion matrix, and and imbalanced classification report. 
+For each machine learning model tested, we generated an accuracy score, confusion matrix, and an imbalanced classification report. 
 
 #### RandomOverSampler
 - Accuracy Score: 0.65
@@ -61,3 +61,5 @@ For each machine learning model tested, we generated an accuracy score, confusio
 ![EasyEnsembleClassifier](/Resources/EasyEnsembleClassifier.PNG)
 
 ## Summary
+
+After looking at the results of all the machine learning algorithms, the EasyEnsembleClassifier was the best model due to its accuracy score of 0.93 and a recall score of 0.92 for high risk. However, the EasyEnsembleClassifier had low precision which means that there was a lot of false positives.  EasyEnsembleClassifier performed the best of all 6 models to predict high-risk with a caveat that there were many loans predicted to be high risk but they were actually low risk.
